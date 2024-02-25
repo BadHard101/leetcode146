@@ -1,7 +1,7 @@
 import java.util.Hashtable;
 
 
-public class LRUCache {
+public class SolLRUCache {
 
     class Node {
         int key;
@@ -53,7 +53,7 @@ public class LRUCache {
     private int capacity;
     private Node head, last;
 
-    public LRUCache(int capacity) {
+    public SolLRUCache(int capacity) {
         this.count = 0;
         this.capacity = capacity;
 

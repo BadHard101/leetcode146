@@ -1,4 +1,4 @@
-class MyLRUCache {
+class MyBadLRUCache {
 
     private class Node {
         int key;
@@ -19,7 +19,7 @@ class MyLRUCache {
     int capacity;
     Node root, last;
 
-    public MyLRUCache(int capacity) {
+    public MyBadLRUCache(int capacity) {
         this.capacity = capacity;
         root = new Node(null);
     }
@@ -83,8 +83,8 @@ class MyLRUCache {
 }
 
 /**
- * Your MyLRUCache object will be instantiated and called as such:
- * MyLRUCache obj = new MyLRUCache(capacity);
+ * Your MyBadLRUCache object will be instantiated and called as such:
+ * MyBadLRUCache obj = new MyBadLRUCache(capacity);
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
